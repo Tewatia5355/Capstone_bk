@@ -1,4 +1,3 @@
-from scipy.io import wavfile
 import noisereduce as nr
 import soundfile as sf
 from noisereduce.generate_noise import band_limited_noise
