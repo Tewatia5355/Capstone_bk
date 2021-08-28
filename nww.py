@@ -20,7 +20,7 @@ CORS(app)
 
 @app.route('/', methods=['GET'])
 def indexss():
-    print("Function Called")
+    return "Function Called"
 
 
 @app.route('/', methods=['POST'])
