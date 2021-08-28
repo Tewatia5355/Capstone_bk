@@ -18,7 +18,12 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 CORS(app)
 
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET'])
+def index():
+    print("Function Called")
+
+
+@app.route('/', methods=['POST'])
 def index():
     print("Function Called")
     new_file = request.files["audio_data"]
