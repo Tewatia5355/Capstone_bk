@@ -19,7 +19,7 @@ CORS(app)
 
 
 @app.route('/', methods=['GET'])
-def index():
+def indexss():
     print("Function Called")
 
 
